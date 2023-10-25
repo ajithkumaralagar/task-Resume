@@ -1,0 +1,128 @@
+*{
+    font-family: verdana;
+}
+.header-wrap{
+   width: 100%;
+   height: 350px;
+   background-color: #565656;
+}
+.profile-wrap{
+    margin-left: 42%;
+    margin-right: 42%;
+}
+.profile-pic{
+    position: absolute;
+    border: 5px dotted #fabe27;
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin-top: 50px;
+}
+.profile-name{
+    position: absolute;
+    border:1px solid #fabe27;
+    font-size: 60px;
+    border-radius: 10px;
+    background-color: #fabe27;
+    color: black;
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-top: 210px; 
+    padding: 10px;
+
+}
+.white-line{
+    position: absolute;
+    width: 100%;
+    height:50px;
+    background-color: #eeeeee;
+    margin-top: 250px;
+}
+.midde-wrap{
+    margin:auto;
+    text-align: center;
+    padding-top: 7px;
+}
+.details-wrap{
+    display: flex;
+    
+    }
+.page-left,.page-right{
+    display:flex;
+    flex-direction:column;
+    margin: 5px;
+    width: 50%;
+    padding-left: 10px;
+    
+    
+}
+.page-left+.page-right{
+    border-left: 1px solid #565656;
+}
+.icon{
+    color: #fabe27;
+    margin-top: 7px;
+}
+.icon-background{
+    width: 50px;
+    height: 50px;
+    background-color: #565656;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+.icon-wrap{
+   width: 50px;
+   height: 50px;
+   border: 5px dotted #fabe27;
+   border-radius: 50%;
+}
+.title-wrap{
+    display: flex;
+}
+.title{
+    font-size: xx-large;
+    display: inline;
+    padding: 7px;
+    color: #6a6767;
+}
+.content-wrap{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.content-title{
+    font-size: large;
+    display: block;
+    text-align: center;
+
+}
+.skills-table{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.progress{
+    width: 100%;
+    height: 16px;
+    border-radius: 10px;
+    
+}
+progress[value]::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+  progress[value]::-webkit-progress-value {
+    background-image:
+         -webkit-linear-gradient(left, #fabe27, #f4dea8);
+  
+      border-radius: 10px; 
+   }
+.work-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    padding-top: 5px;
+    text-align: justify;
+}  
